@@ -21,7 +21,7 @@
   <target Ddsp="NO_DSP" Dendian="Little-endian" Dfpu="DP_FPU" Dmve="NO_MVE" Dname="MIMXRT1064DVL6A" Dsecure="Non-secure" Dtz="NO_TZ" Dvendor="NXP:11">
     <output intdir="./Objects/" name="KSC_Debug" outdir="./Objects/" type="exe"/>
     <ldflags compiler="AC6" add="--entry=Reset_Handler --no_remove --diag_suppress=L6314 --callgraph --info=sizes,summarysizes,totals,unused,veneers --load_addr_map_info --map --predefine=&quot;-DXIP_BOOT_HEADER_ENABLE=1&quot; --strict --summary_stderr --symbols --xref" file="./RTE/Device/MIMXRT1064DVL6A/MIMXRT1064xxxxx_flexspi_nor.scf"/>
-    <cflags  compiler="AC6" add="-gdwarf-4 -O1 -std=c99 -xc -ffunction-sections -fno-rtti -Weverything -Wno-reserved-id-macro -Wno-c11-extensions -DSKIP_SYSCLK_INIT -DXIP_BOOT_HEADER_DCD_ENABLE=&quot;1&quot; -DXIP_BOOT_HEADER_ENABLE=&quot;1&quot; -DXIP_EXTERNAL_FLASH=&quot;1&quot;"/>
+    <cflags  compiler="AC6" add="-gdwarf-4 -O0 -std=c99 -xc -ffunction-sections -fno-rtti -Weverything -Wno-reserved-id-macro -Wno-c11-extensions -DSKIP_SYSCLK_INIT -DXIP_BOOT_HEADER_DCD_ENABLE=&quot;1&quot; -DXIP_BOOT_HEADER_ENABLE=&quot;1&quot; -DXIP_EXTERNAL_FLASH=&quot;1&quot;"/>
     <asflags compiler="AC6" add="-gdwarf-4 -masm=auto"/>
   </target>
 
