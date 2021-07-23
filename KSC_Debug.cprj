@@ -9,9 +9,9 @@
   </info>
 
   <packages>
-    <package name="CMSIS" vendor="ARM"/>
-    <package name="EVK-MIMXRT1064_BSP" vendor="NXP"/>
-    <package name="MIMXRT1064_DFP" vendor="NXP"/>
+    <package name="CMSIS" vendor="ARM" version="5.8.0:5.8.0"/>
+    <package name="EVK-MIMXRT1064_BSP" vendor="NXP" version="13.0.0:13.0.0"/>
+    <package name="MIMXRT1064_DFP" vendor="NXP" version="13.0.0:13.0.0"/>
   </packages>
 
   <compilers>
